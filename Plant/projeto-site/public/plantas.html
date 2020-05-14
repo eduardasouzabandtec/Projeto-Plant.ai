@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" href="./Logo/phpThumb_generated_thumbnailico"/>
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css e js site/dashboard.css">
+    <title>Plant.ai</title>
+</head>
+
+<body>
+
+    <!-- INÍCIO NAVBAR -->
+
+    <nav class="navbar">
+        <div class="navbar-container">
+            <div class="navbar-img">
+                <img src="Logo/SVG/v2-H.svg" alt="">
+            </div>
+            <div class="navbar-links">
+                <a href="home.html">Home</a>
+                <a id="btnPlanta" href="plantas.html">Plantas</a>
+                <a href="perfil.html">Perfil</a>
+                <a href="faq.html">FAQ</a>
+                <a onclick="logoff()">Sair</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- FINAL NAVBAR -->
+
+    <!-- INÍCIO CONTEUDO -->
+
+    <main>
+        <section>
+            <div class="buscar">
+                <input class="buscar-planta" type="text" placeholder="Pesquise sua planta aqui">
+            </div>
+        </section>
+        <section class="tabelas"></section>
+    </main>
+
+    <!-- FINAL CONTEÚDO -->
+
+</body>
+<script src="./css e js site/grafico.js"></script>
+<script src="css e js site/plantas.js"></script>
+<script src="css e js site/dashboard.js"></script>
+<script src="./css e js site/funcoes.js"></script>
+<script src="css e js site/helpdesk.js"></script>
+
+</html>
+<script>
+    tipoCliente();
+</script>

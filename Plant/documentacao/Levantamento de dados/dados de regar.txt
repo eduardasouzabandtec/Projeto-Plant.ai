@@ -1,0 +1,11 @@
+Vaso grande
+Volume = 1.7L
+Regar padrão = 0.56L ou 560mL
+
+Vaso médio
+Volume = 0.56L
+Regar padrão = 0.19L ou 190mL
+
+Vaso pequeno
+Volume = 0.3L
+Regar padrão = 0.1L ou 100mL

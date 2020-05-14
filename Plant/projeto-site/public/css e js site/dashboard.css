@@ -1,0 +1,286 @@
+/* BASE */
+
+html{
+    margin: 0%;
+}
+
+body {
+    margin: 0%;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    background-color: #faebd793;
+}
+
+main {
+    width: 100vw;
+}
+
+.graficos {
+    width: 70vh;
+    height: fit-content;
+    text-align: center;
+}
+
+
+/* NAVBAR */
+
+.navbar {
+    width: 20rem;
+}
+
+.navbar-container {
+    position: fixed;
+    margin: 2rem;
+    height: 90vh;
+    width: 13rem;
+    background-color: #155434;
+    box-shadow: 1px 0px 10px grey;
+    border-radius: 2rem;
+}
+
+.navbar-links {
+    margin: auto;
+    display: flex;
+    width: 8rem;
+    height: 20rem;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.navbar-links a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: #89e5b7;
+    cursor: pointer;
+}
+
+.navbar-links a:hover {
+    color: lightsalmon;
+    text-decoration: underline solid lightsalmon;
+    transition: 0.5s linear;
+}
+
+.navbar-img {
+    width: fit-content;
+    margin: .7rem auto;
+}
+
+.navbar-img img {
+    width: 10rem;
+}
+
+/* INÍCIO GRAFICOS */
+
+
+.selection {
+    margin: 3rem auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.aa{
+    display: inline;
+}
+
+/* INÍCIO PERFIL  */
+
+.perfil {
+    background-color: #89e5b7d8;
+    border-radius: 5px;
+    display: flex;
+    margin-top: 4rem;
+    width: 40rem;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 4rem auto;
+    padding: 2rem;
+}
+
+.perfil-content {
+    width: 30rem;
+}
+
+.perfil-dados {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5%;
+}
+
+.perfil-foto {
+    width: 5rem;
+}
+
+.perfil-nome {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.perfil-endereco {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5%;
+}
+
+.perfil-endereco1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* INÍCIO FAQ */
+
+.faq {
+    width: 46rem;
+    margin: auto;
+}
+
+.faq-pergunta{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #89e5b7;
+    border-radius: 20px;
+    margin-top: 1rem;
+    padding: .5rem 1rem;
+    transition: .5s;
+}
+
+.faq-resposta {
+    background-color: #89e5b7;
+    border-radius: 0 0 20px 20px;
+    height: 0;
+    padding: 0;
+    overflow: hidden;
+    transition: 0.5s ease-in-out;
+}
+
+/* BUSCA */
+
+.buscar {
+    width: 46rem;
+    margin: 3rem auto;
+}
+
+.buscar-planta {
+    width: 46rem;
+    padding: 1rem;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+/* TABELAS */
+
+.tabelas {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+table {
+    width: 24rem;
+    height: 30rem;
+    margin: 2rem;
+    border-collapse: collapse;
+}
+
+thead, tbody, tr, td, th {
+    border: 1px solid grey;
+    padding: .5rem;
+}
+
+tr {
+    font-weight: bold;
+}
+
+thead {
+    background-color: lightsalmon;
+    font-size: 1.5rem;
+}
+
+/* ALERTAS */
+
+.alerta__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 5rem;
+    margin: 2rem;
+    justify-content: center;
+    border-radius: .5rem;
+    overflow: hidden;
+}
+
+.alerta {
+    color: red;
+    font-size: 24px;
+}
+
+.conteudo {
+    display: flex;
+}
+
+.conteudo__tabela {
+    display: flex;
+}
+
+/* SCROLL */
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}
+
+
+/* COMBO SELECTION  */
+
+select {
+	color: lightsalmon;
+	width: 20rem;
+    padding: 1rem;
+    border: 1px solid grey;
+    border-radius: 5px;
+	height: 25px;
+	cursor: pointer;
+	background: url(http://sharpik.com/wip/cuteselect/arrow.png) 295px 12px no-repeat white;
+}
+
+select:hover {
+	background-color: transparent;
+	color: white;
+	padding: 15px 5px 15px 25px;
+}
+
+select option {
+	background-color: white;
+	color: gray;
+	padding: 10px 15px;
+	height: 20px;
+	cursor: pointer;
+}
+
+select option:hover {
+	color: lightsalmon;
+}

@@ -1,0 +1,49 @@
+body{
+    background-image: url("../imagens\ site/planta2.jpg");
+    background-size: cover;
+    min-width: 550px;
+    font-family: 'Roboto', sans-serif;
+    /* color: white; */
+}
+.img{
+    margin-top: 2vh;
+    width: 10vw;
+    margin-bottom: 2%; 
+}
+.a{
+    font-weight: bold;
+}
+.container {
+    background-color: rgba(255, 255, 255, 0.4);
+    margin-left: 25%;
+    margin-right: 25%;
+    padding-top: 0.3%;
+    align-self: center;
+    text-align: center;
+}
+.h1{
+    margin-bottom: -0%;
+    font-weight: bold;
+}
+.h2 {
+    margin-bottom: -0%;
+    font-weight: bold;
+}
+       .container select {     
+           background: rgb(0, 128, 0,0.1);
+             /* Imagem de fundo (Seta) */   overflow:hidden; /* Esconde o conteúdo que passar do tamanho especificado */
+                background-position: 205px center;  /*Posição da imagem do background*/   
+                   width: 200px; /* Tamanho do select, maior que o tamanho da div "div-select" */  
+                       height:48px; /* altura do select, importante para que tenha a mesma altura em todo os navegadores */
+                       font-family: 'Roboto', sans-serif; /* Fonte do Select */ 
+                          font-size:18px; /* Tamanho da Fonte */
+                            padding:13px 20px 13px 12px; /* Configurações de padding para posicionar o texto no campo */ 
+                             color:#fff; /* Cor da Fonte */  
+                                 text-indent: 0.01px; /* Remove seta padrão do FireFox */     
+                                  text-overflow: "";  /* Remove seta padrão do FireFox */ 
+                                transition: 1.5s;
+                                outline:none;   }      
+       select:hover {
+        background:  green;
+       }
+    

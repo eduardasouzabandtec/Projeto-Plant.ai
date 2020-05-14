@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" href="./Logo/phpThumb_generated_thumbnailico"/>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Varela&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css e js site/Cadastro.css">
+    <script language="javascript" SRC="./css e js site/Cadastro.js"></script>
+    <title>Document</title>
+</head>
+<body>
+        <a href="./Index.html"><img src="./imagens site/arrow_voltar.png" alt="seta voltar" style="float: left;width: 8vw; "></a>
+   <img src="./imagens site/logo.png" alt="Logo" style="margin-left: 37%">
+   <!--(a) href vai para a o link mostrado-->
+    <div>
+        <h1>Cadastro</h1><br><form id="form_cadastro" method="post">
+        <input class="grande" type="text" placeholder="  Nome" name="nome"><br>
+        <input class="grande" type="text" placeholder="  emal" name="email">
+        <input id="senha" class="medio" type="password" placeholder="  Senha" name="senha">
+        <input id="Csenha" class="medio" type="password" placeholder="  Confirmar senha">
+        <input class="pequeno" type="text" placeholder="  estado" name="estado">
+        <input class="pequeno" type="text" placeholder="  cidade" name="cidade">
+        <input class="pequeno" type="text" placeholder="  bairro" name="bairro">
+        <input class="grande" type="text" placeholder="  rua" name="rua">
+        <input class="pequeno" type="text" placeholder="  numero da Rua" name="numero_Rua">
+        <input class="pequeno" type="text" placeholder="  CPF" name="CPF">
+        <select class="pequeno" name="conta">
+            <option value="">-- Tipo da conta --</option>
+            <option value="f">Free</option>
+            <option value="p">Premium</option>
+        </select><br></form>
+        <input class="checkbox" type="checkbox">Li e concordo com os <a href=""> termos de Adesão e Uso</a>
+        </input><br>
+        <!--CheckBox é a caixa de check-->
+        <br><button class="btn" onclick="return cadastrar()" style="margin-right: 30px" >Cadastrar</button>
+        <a style="font-weight: bold;" href="Login.html">Ja sou cadastrado</a><br>
+    </div>
+</body>
+</html>

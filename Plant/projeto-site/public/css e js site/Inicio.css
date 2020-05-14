@@ -1,0 +1,432 @@
+                        /* parte do corpo do site e suas funções básica */
+
+html{scroll-behavior: smooth;}
+
+body{min-width: 51.224vw;
+    font-family: 'Roboto', sans-serif;
+ 
+}
+
+.invisivel{
+    display: none;
+    position: absolute;
+}
+
+.visivel{
+    
+    position: fixed;
+    bottom: 4.392vw;
+    left: 2.196vw;
+    width: 7.320vw;
+    z-index: 1;
+    display: block;
+    
+}
+
+                        /* foramto das divs que vem depois da pagina principal */
+
+.verde{
+    background-image: url("../imagens\ site/planta11.jpg") ;
+    background-size: cover;
+    height: 54.780vw;
+    text-align: center;
+    
+}
+
+
+.pf{
+  
+    color: black;
+    font-size: 2.562vw;
+    
+    
+}
+
+.topo{
+    background-image: url("../imagens\ site/planta2.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 49.780vw;
+    text-align: center;
+}
+
+                                /* formato do menu do topo do site (pag.1) */
+
+
+#Home{
+    display: unset;
+    width: 12%;                                                                       
+}    
+#home img {
+    margin-left: 2.196vw;
+    height: 7.320vw;}                                                            
+                                                               
+                                
+.menu{
+    font-size: 1.976vw;
+  display: inline-block;
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 100%;
+    height: 7.320vw;
+}
+
+.btn {
+    border: 0.14vw solid black;
+    background-color: rgb(253, 241, 241,0);
+    color: white;
+    padding: 1.024vw 2.049vw;
+    font-size: 1.171vw ;
+    cursor: pointer;
+  }
+  
+  /* Green */
+  .btn {
+    border-color: #4CAF50;
+    color: white;
+    float: right;
+    margin-right: 5%;
+    margin-top: 2%;
+    transition: 1s;
+  }
+  .btn:hover {
+    background-color: #4CAF50;
+    color: white;
+  }
+  .btn {
+    border-radius: 0.066vw;
+  }
+
+.menu img{
+    margin-left: 2.196vw;
+    height: 7.320vw;    
+    float: left;    
+}
+
+a{
+    margin-left: 2%;
+    margin-right: 2%;
+    line-height:6.588vw;
+    text-decoration: none;
+    color: white;
+    border-color: green;
+    
+}
+.a {
+    border-radius: 0.366vw; ;
+  }
+a:hover{
+    color: rgb(14, 173, 14);
+    transition: 1s;
+}
+
+.frase {                /* frase de início da página inicial */
+    margin: auto;
+    width: 70vw;        
+    margin-top: 7.320vw;
+    padding: 1.372vw;
+    font-size: 1.756vw; ;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: white;
+}
+
+button{
+    margin-top: 2.745vw;
+    background-color: rgb(253, 241, 241,0);
+    color: rgb(135, 206, 29);
+    height: 3.366vw;
+    width: 11vw;
+    font-size: 1.464vw;
+    min-width: 9.150vw;
+    border-radius: 0.366vw;
+    border-color: green;
+}
+button{
+    transition: 1s;
+  }
+
+
+button:hover{
+    font-size: 1.683vw;
+    color: white;
+    background-color: #4CAF50;
+    
+   
+}        
+.topo button{
+    margin-top: 1.372vw;
+    background-color: rgb(253, 241, 241,0);
+    color:white;
+    height: 3.366vw;
+    width: 11vw;
+    font-size: 1.464vw;
+    min-width: 9.150vw;
+}
+.frasebot button{ 
+    margin-top: 8.235vw;
+}
+.topo button{
+    transition: 1s;
+  }
+.topo button{
+    border-radius: 0.366vw;
+    border-color: green;}
+
+.topo button:hover{
+    font-size: 1.683vw;
+    color: white;
+    background-color: #4CAF50;
+}       /* botão muda ao passar o mouse */
+
+                                /* Parte onde fala do produto (pag.2) */
+
+.escrito div{
+    margin: auto;
+    width: 70vw;        
+    margin-top: 7.320vw;
+    padding: 1.372vw;
+    font-size: 1.756vw;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: white;    
+}
+
+p{
+    text-align: center;
+    font-size: 6vw;
+    color: white;
+    width: 100%;
+    font-weight: bold;
+    margin: 0;
+}
+
+.foto{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 65vw;
+    margin: 3.660vw auto;
+    }
+.foto img{
+    width: 6.863vw;
+}
+
+                                            /* parte do FAQ (pag.3) */
+
+fieldset{               /* fieldset é quase uma div, poder automaticamente mostra a borda */
+    margin-bottom: 2.196vw;
+    height: 4.904vw;
+    margin-left: 4%;
+    margin-right: 4%;
+    border-radius: 0.732vw;
+}
+
+fieldset img{
+    float: right;
+    margin-right: 2.196vw;
+    width: 5.124vw;
+}
+
+fieldset b{
+    float: left;
+    margin-top: 1.244vw;;
+    margin-left: 0.732vw;
+    font-size: 2.196vw;
+}
+
+                            /* plano para arrumar a parte dos planos (pag.04) */
+
+#palavra_plano{
+    
+    margin-bottom: 6%;
+
+}
+
+.planos{
+    float: left;
+    height: 62%;
+    width: 44%;
+    background-color: #A2C16A;
+    text-align: center;
+    margin-left: 5.124vw;
+    border-radius: 0.732vw;
+    font-size: 96%;
+}
+
+.planos #tipo_plano{
+    font-size: 3.8vw;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    text-align: justify;
+    margin-top: none;
+    margin-left: 33.2%;
+    color: black;
+}
+
+.div_p{
+    font-size: 1.9vw;
+    margin-bottom: 6.5%;
+    text-align: justify;
+    margin-left: 4%;
+    color: black;  
+}
+
+.div_img{
+    width: 9% ;
+    margin-right: 4%;
+    
+}
+
+.financa{
+    color: black;
+    background-color: #A2C16A;
+    font-weight: bold;
+    width: 18.301vw;
+    
+}
+
+.financa:hover{
+    width:20.0vw;
+    height: 4.0vw;
+}
+
+                                /* parte de contato do site (pag.05) */
+.contato{
+    height: 40.923vw;
+    width: 82vw;
+    margin: 0vw auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 8.0vw
+  }
+
+.form{ 
+    float: left;
+   margin-left: 2%;
+    color: green;
+    
+    width: 45% !important;
+    height: 83% !important;
+}
+input,textarea{ width: 50%; transition: 1s;}
+
+input:focus, textarea:focus{
+    border: 0.146vw solid green;
+    width: 70%;
+}
+#enviar{
+margin-top: 1.0vw
+}
+
+
+/* comando para arrumar o formato do maps do site */
+.mapa{     
+    float: right;
+    margin-right: 2%;  
+    width: 50% !important;
+    height: 83% !important;
+   
+  
+}
+.mapa iframe{                   /* tamanho do maps na div colocada */
+    width: 100% !important;
+  height: 100% !important;
+}
+.form b{
+    text-align: center;
+    font-size: 2.196vw;
+}
+
+.div_redes{
+    margin-bottom: 1.0vw;
+    margin-top: 1.0vw;
+}
+
+.redes{
+    width: 4vw;
+    margin-right: 1.0vw;
+    
+}
+
+
+
+                                    /* parte final do site, o rodapé */
+
+.fim{
+    background-color: #24332C;
+    height: 4.392vw;
+    text-align: center;
+    font-size: 1.267vw;
+    vertical-align: center;
+    
+}
+
+
+.fim h2{
+    color: #A2C16A;
+    margin-bottom: 1.520vw;
+    margin-top: 0.0vw;
+   
+}
+
+#comTomTicketChatWidget, .tomticketChat-status-chat {
+    background-color: green !important;
+}
+
+                    /* formato para mudar os comandos apenas em certas ocasioes */
+
+@media only screen and (max-width: 65.885vw) {     /* muda apenas quando width chegar aos 900px */
+    input{
+        width: 70%;
+    }
+    fieldset b{
+        font-size: 3vw;
+        margin-top: 1.464vw;
+    }
+    .tamanho_foto{
+        margin-top: 38%;
+    }
+    .plano1{
+        width: 38%;
+        margin-top: -2.196vw;
+    }
+    .plano2{
+        width: 38%;
+        margin-top: -2.196vw;
+    }
+}
+
+@media only screen and (max-width: 46.852vw) {     /* muda apenas quando width chegar aos 640px */
+    fieldset b{
+        font-size: 1.317vw;
+        margin-top: 1.830vw;
+    }
+    .menu button{
+        min-width: 7.686vw;
+    }
+    .contato img{
+        margin-top: -1.098vw;
+        width: 8%;
+        height: 8%;
+    }
+    input{
+        width: 60%;
+    }
+    .escrito div{
+        font-size: 1.976vw;
+    }
+    .tamanho_foto{
+        margin-top: 70%;
+    }
+    .plano1{
+        width: 42%;
+        margin-left: 2.196vw;
+    }
+    .plano2{
+        width: 42%;
+        margin-right: 2.196vw;
+    }
+}
